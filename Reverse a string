@@ -1,0 +1,7 @@
+def toreverse(a):
+    reverse = ""
+    for i in a:
+        reverse=i+reverse
+    print("Reversed String is :", reverse)
+    
+toreverse(hello_world)
